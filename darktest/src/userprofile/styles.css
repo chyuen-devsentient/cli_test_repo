@@ -1,0 +1,92 @@
+.gravatar-circle {
+  width: 120px;
+  height: 120px;
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  margin: auto;
+  /* justify-content: center; */
+  color: white;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* align-items: center; */
+  border-radius: 50%;
+}
+
+.header {
+  background-size: cover;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-right: 8px;
+  margin-top: 8px;
+  border-bottom: 5px solid green;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-right: 8px;
+  margin-top: 8px;
+  border-top: 5px solid #f00;
+}
+
+.socialInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.socialCounts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+.contentWrapper {
+  margin-top: -180px;
+}
+
+.card {
+  border: none;
+  background: 'gray';
+  margin-top: rem(-120);
+  background-size: cover;
+  padding: rem(35) rem(35) rem(25) rem(35);
+}
+
+.wallItem {
+  margin-top: rem(20);
+  margin-bottom: rem(20);
+  padding-bottom: rem(20);
+  border-bottom: 1px;
+}
+
+.wallAvatar {
+  float: left;
+}
+
+.wallContent {
+  margin-left: rem(70);
+}
+
+.wallInnerContent {
+  border: none;
+}
+
+.wallComments {
+  margin-top: rem(20);
+}
+
+.messageImg {
+  border-radius: 3px;
+  margin: 0 rem(5) rem(10) 0;
+  max-width: rem(200);
+}
